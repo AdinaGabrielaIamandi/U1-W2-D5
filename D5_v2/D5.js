@@ -73,7 +73,7 @@ for (let i = 0; i < cars.length; i++) {
 cars[3] = {
     brand: "Opel",
     model: "Astra",
-    color: "black",
+    color: "green",
     trims: ["life", "style", "r-line"],
 };
 //console.log(cars);
@@ -121,5 +121,89 @@ while (i < 14) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+let posizione = [];
 
-console.log(charactersArray.map());
+for (let i = 0; i < charactersArray.length; i++) {
+    switch (charactersArray[i]) {
+        case "a":
+            posizione.push(1);
+            break;
+        case "b":
+            posizione.push(2);
+            break;
+        case "c":
+            posizione.push(3);
+            break;
+        case "d":
+            posizione.push(4);
+            break;
+        case "e":
+            posizione.push(5);
+            break;
+        case "f":
+            posizione.push(6);
+            break;
+        case "g":
+            posizione.push(7);
+            break;
+        case "h":
+            posizione.push(8);
+            break;
+        case "i":
+            posizione.push(9);
+            break;
+        case "j":
+            posizione.push(10);
+            break;
+        case "k":
+            posizione.push(11);
+            break;
+        case "l":
+            posizione.push(12);
+            break;
+        case "m":
+            posizione.push(13);
+            break;
+        case "n":
+            posizione.push(14);
+            break;
+        case "o":
+            posizione.push(15);
+            break;
+        case "p":
+            posizione.push(16);
+            break;
+        case "q":
+            posizione.push(17);
+            break;
+        case "r":
+            posizione.push(18);
+            break;
+        case "s":
+            posizione.push(19);
+            break;
+        case "t":
+            posizione.push(20);
+            break;
+        case "u":
+            posizione.push(21);
+            break;
+        case "v":
+            posizione.push(22);
+            break;
+        case "w":
+            posizione.push(23);
+            break;
+        case "x":
+            posizione.push(24);
+            break;
+        case "y":
+            posizione.push(25);
+            break;
+        case "z":
+            posizione.push(26);
+            break;
+    }
+}
+
+console.log(posizione);
