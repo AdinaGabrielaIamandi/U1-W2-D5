@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #e9edee;
+}
+
+.logotop {
+    background-color: #222f3f;
+    height: 3em;
+}
+
+.logotop img {
+    height: 55%;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.topbar {
+    background-color: #364759;
+    padding-left: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: white;
+    padding-right: 1em;
+}
+
+.container {
+    background-color: #f56600;
+    color: white;
+    text-align: center;
+    margin: 1em;
+}
+
+.container p {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+nav {
+    background-image: url(bg-image.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    margin: 1em;
+    height: 10em;
+    text-align: center;
+    color: white;
+}
+
+nav h1 {
+    padding-top: 2em;
+}
+
+main {
+    margin: 1em;
+}
+
+section {
+    background-color: #ffffff;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.text p {
+    padding-right: 1em;
+}
+
+.text a {
+    color: #257f89;
+    text-decoration: none;
+}
+
+.box1 {
+    display: inline-block;
+    height: 10em;
+    margin: 1em;
+}
+
+.box1 img {
+    border-radius: 10px;
+    height: 100%;
+}
+
+.box2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.box2 img {
+    width: 100%;
+}
+
+.text2 {
+    display: inline-block;
+    align-items: center;
+    font-weight: bold;
+}
+
+.text2 a {
+    color: #257f89;
+    text-decoration: none;
+}
+
+aside {
+    background-color: #364759;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+aside a {
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #222f3f;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer img {
+    height: 5em;
+}
